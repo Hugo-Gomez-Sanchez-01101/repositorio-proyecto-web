@@ -1151,3 +1151,296 @@ top: 0%;
 
   margin-top: 0%;
 }
+
+
+  /* aqui esta mi relleno de proyectos*/
+  /* este es el responsive de proyectos clubes cards */
+  @media screen and (max-width: 1141px){
+
+    .card,
+    .content{
+        flex-direction: column;
+    }
+  
+    .card img{
+        margin-bottom: 10px;
+    }
+  
+    .card .content .channel-name,
+    .card .content .channel-info,
+    .card .content .channel-desc{
+        text-align: center;
+    }
+  
+    .btn-link{
+        margin: 10px 0;
+    }
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .contenedor{
+    width: 100%;
+    min-width: 124px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #24242C;
+    -webkit-box-shadow: 0px 0px 40px 0px rgb(12, 99, 68);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    margin-top: 50%;
+    border-radius: 10px;
+    position: absolute;
+  }
+  
+  .contenedor > h1{
+    color: #129968;
+    margin: 0 0 15px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .contenedor > p{
+    color: #444;
+    margin: 0 0 20px;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+  
+  .cards{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 90%;
+    min-width: 219.4px;
+    margin: 30px auto;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    transition: all .5s ease;
+    border-radius: 20px;
+  }
+  
+  .card:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 30px 0px rgba();
+  }
+  
+  .card img{
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+  }
+  
+  .card .content{
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card .text{
+    padding: 0 30px 0 0;
+  }
+  
+  .card .content .channel-name{
+    font-weight: 400;
+  }
+  
+  .card .content .channel-info{
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  .card .content .channel-desc{
+    margin: 5px 0;
+    font-weight: 300;
+    letter-spacing: .5px;
+  }
+  
+  .card .content .btn-link{
+    color: white;
+    padding: 6px 12px;
+    font-size: .9rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #de1212;
+  }
+  /* aqui esta el footer de proyectos */
+  .site-footerCP
+  {
+  background-color:#1f1f22;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  width: 100%;
+  top: 2800px;
+  }
+  .site-footerCP hr
+  {
+  border-top-color:#bbb;
+  opacity:0.5
+  }
+  .site-footerCP hr.small
+  {
+  margin:20px 0
+  }
+  .site-footerCP h6
+  {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+  }
+  .site-footerCP a
+  {
+  color:#737373;
+  }
+  .site-footerCP a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-linksCP
+  {
+  padding-left:0;
+  list-style:none
+  
+  }
+  .footer-linksCP li
+  {
+  display:block
+  }
+  .footer-linksCP a
+  {
+  color:#737373
+  }
+  .footer-linksCP a:active,.footer-linksCP a:focus,.footer-linksCP a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-linksCP.inline li
+  {
+  display:inline-block
+  }
+  .site-footerCP .social-icons
+  {
+  text-align:right
+  }
+  .site-footerCP .social-icons a
+  {
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+  }
+  .copyright-text
+  {
+  margin:0
+  }
+  @media (max-width:991px)
+  {
+  .site-footerCP [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  }
+  @media (max-width:767px)
+  {
+  .site-footerCP
+  {
+    padding-bottom:0;
+  }
+  .site-footerCP .copyright-text,.site-footerCP .social-icons
+  {
+    text-align:center
+  }
+  }
+  
+  .logosCP{
+  display: flex;
+  position: absolute;
+  right: 4%;
+  top: 58%;
+  }
+  #redes{
+  position: relative;
+  width: 20%;
+  height: 20%;
+  margin: 5%;
+  }
+  
+  /*MENU DE PAGINA proyectos*/
+  
+  
+  .topnavPC {
+    background-color:  #0c0c0e;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .topnavPC a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+  }
+  
+  .topnavPC a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnavPC a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnavPC .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width:850px){
+    .clubsproyecto{
+      height: 1%;
+    }
+    .clubsproyecto .logosCP{
+      position: relative;
+      left: 10%; 
+      top: 0px;
+      width: 20%;
+    }
+    .clubsproyecto .rowCP{
+      height: 2%;
+    }
+  }

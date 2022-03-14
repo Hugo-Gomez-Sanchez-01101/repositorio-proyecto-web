@@ -1418,7 +1418,44 @@ top: 0%;
   .puenteCP{
     position: relative;
     width: 120%;
-    
+}
+/*titulo de la universidad europea*/
+.tituloCP{
+  color:  #129968 ;
+  display: flex;
+  font-family: Hellix-Black;
+  text-shadow: #000000 10px 10px 10px;
+  font-size: 500%;
+}
+@media  screen and (max-width: 949px) {
+  .tituloCP{
+      font-size:400%;
+  }
+}
+@media  screen and (max-width: 761px) {
+  .tituloCP{
+      font-size:300%;
+  }
+}
+@media screen and (max-width: 571px) {
+  .tituloCP{
+      font-size: 250%;
+  }
+}
+@media screen and (max-width: 482px) {
+.tituloCP{
+    font-size: 170%;
+}
+}
+@media screen and (max-width: 667px) {
+  .tituloCP{
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 1141px) {
+  .logomadridCP{
+    margin-top: -10px;
+  }
 }
 .logomadridCP{
   width: 100%;
@@ -1427,7 +1464,7 @@ top: 0%;
 .cajaCP{
   position: absolute;
   left: 5%;
-  top: 25%;
+  top: 10%;
 }
   .cajatituloCP{
     width: 100%;

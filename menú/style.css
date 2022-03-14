@@ -365,7 +365,7 @@ footer {
   }
   .blanco{
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 30%
   }
 }
@@ -375,7 +375,7 @@ footer {
   }
   .blanco{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 25%;
   }
 }
@@ -385,7 +385,7 @@ footer {
   }
   .blanco{
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 0%;
   }
 }
@@ -442,7 +442,7 @@ footer {
 /*Formulario de registro*/
 .blanco{
 background: white;
-height: 500px;
+height: 535px;
 width: 500px;
 display: flex;
 box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);

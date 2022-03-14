@@ -6,7 +6,7 @@
   font-family: "Hellix-Black";
   src:url(tipología/Hellix-Black.ttf)
 }
-body{
+.bodyindex{
   background-color:  #24242c ;
   position: relative;
   height: 100vh;

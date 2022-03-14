@@ -1190,16 +1190,20 @@ top: 0%;
   .contenedor{
     width: 100%;
     min-width: 124px;
-    min-height: 100vh;
     margin: 0 auto;
     padding: 10px 20px;
     background-color: #24242C;
     -webkit-box-shadow: 0px 0px 40px 0px rgb(12, 99, 68);
     -moz-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
     box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
-    margin-top: 50%;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    margin-top: 30%;
+  }
+  @media screen and (max-width:1110px) {
+    .contenedor{
+      margin-top: 50%;
+    }
   }
   
   .contenedor > h1{
@@ -1288,12 +1292,12 @@ top: 0%;
   .site-footerCP
   {
   background-color:#1f1f22;
-  padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
   width: 100%;
-  top: 2800px;
+  position: relative;
+  bottom: 0;
   }
   .site-footerCP hr
   {
@@ -1395,8 +1399,21 @@ top: 0%;
   }
   
   /*MENU DE PAGINA proyectos*/
-  
-  
+  .puente{
+    position: relative;
+    width: 120%;
+    
+}
+  .cajatituloCP{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    overflow: hidden;
+}
+  .bodyCP{
+    background-color:  #24242c ;
+    position: relative;
+}
   .topnavPC {
     background-color:  #0c0c0e;
     overflow: hidden;

@@ -934,8 +934,6 @@ transition: 0.5s;
 
 .containerCB .card:hover .imgBx{
 top: 0%;
-transform: translateY(0%);
-  
 }
 
 .containerCB .card .imgBx img{

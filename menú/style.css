@@ -341,6 +341,10 @@ footer {
 
 
 /*Esta es la parte de CSS del Login*/
+.link-login{
+  text-decoration: none;
+  color: #000000;
+}
 .BodyL{
   background-image: url(img/puente.jpg);
   background-attachment: fixed;
@@ -834,7 +838,7 @@ height: 10%;
   position: relative;
   top: -10px;
   left: -10px;
-  width: 100%;
+  width: 100.5%;
 }
 
 .topnav a {
@@ -934,6 +938,8 @@ transition: 0.5s;
 
 .containerCB .card:hover .imgBx{
 top: 0%;
+transform: translateY(0%);
+  
 }
 
 .containerCB .card .imgBx img{
@@ -972,7 +978,7 @@ color: #fff;
 margin: 0;
 }
 
-.containerCB .card .contentBx .size {
+.containerCB .card .contentBx .size, .containerCB .card .contentBx .color {
 display: flex;
 position: relative;
 justify-content: center;
@@ -993,9 +999,13 @@ transition-delay: 0.5s;
 
 }
 
+.containerCB .card:hover .contentBx .color{
+opacity: 1;
+visibility: visible;
+transition-delay: 0.6s;
+}
 
-
-.containerCB .card .contentBx .size h3{
+.containerCB .card .contentBx .size h3, .containerCB .card .contentBx .color h3{
 color: #fff;
 font-weight: 300;
 font-size: 12px;

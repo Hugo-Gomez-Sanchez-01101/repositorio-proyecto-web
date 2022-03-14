@@ -1157,18 +1157,18 @@ top: 0%;
   /* este es el responsive de proyectos clubes cards */
   @media screen and (max-width: 1141px){
 
-    .card,
+    .cardCP,
     .content{
         flex-direction: column;
     }
   
-    .card img{
+    .cardCP img{
         margin-bottom: 10px;
     }
   
-    .card .content .channel-name,
-    .card .content .channel-info,
-    .card .content .channel-desc{
+    .cardCP .content .channel-name,
+    .cardCP .content .channel-info,
+    .cardCP .content .channel-desc{
         text-align: center;
     }
   
@@ -1216,12 +1216,12 @@ top: 0%;
     letter-spacing: .5px;
   }
   
-  .cards{
+  .cardsCP{
     display: flex;
     flex-direction: column;
   }
   
-  .card{
+  .cardCP{
     width: 90%;
     min-width: 219.4px;
     margin: 30px auto;
@@ -1236,45 +1236,45 @@ top: 0%;
     border-radius: 20px;
   }
   
-  .card:hover{
+  .cardCP:hover{
     transform: scale(1.05);
     -webkit-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
     -moz-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
     box-shadow: 0px 0px 30px 0px rgba();
   }
   
-  .card img{
+  .cardCP img{
     width: 109px;
     height: 109px;
     border-radius: 50%;
   }
   
-  .card .content{
+  .cardCP .content{
     margin: 0 0 0 20px;
     display: flex;
     align-items: center;
   }
   
-  .card .text{
+  .cardCP .text{
     padding: 0 30px 0 0;
   }
   
-  .card .content .channel-name{
+  .cardCP .content .channel-name{
     font-weight: 400;
   }
   
-  .card .content .channel-info{
+  .cardCP .content .channel-info{
     margin-top: 10px;
     font-weight: 300;
   }
   
-  .card .content .channel-desc{
+  .cardCP .content .channel-desc{
     margin: 5px 0;
     font-weight: 300;
     letter-spacing: .5px;
   }
   
-  .card .content .btn-link{
+  .cardCP .content .btn-link{
     color: white;
     padding: 6px 12px;
     font-size: .9rem;

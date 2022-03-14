@@ -118,24 +118,25 @@
 /*caja texto esplicativo*/
 .cajaTextoExplicativo{
   position: absolute;
-  top: 19%;
+  top: 15%;
   left: 5%;
   max-width: 35%;
   max-height: 851px;
 }
 /*texto explicativo*/
 .textoexplica{
-  font-size: 250%;
-  font-family: arlrdbd;
+  font-size: 300%;
+  font-family: Hellix-Black;
   color: rgb(194, 199, 155);
 }
-/*hacemos el texto mas grande*/
-@media  screen and (min-width: 1550px) {
+@media screen and (max-width: 1456px) {
   .textoexplica{
-      font-size:350%;
+    font-size: 250%;
   }
-  .cajaTextoExplicativo{
-      top: 13%;
+}
+@media screen and (max-width: 1056px) {
+  .textoexplica{
+    font-size: 220%;
   }
 }
 /*hacemos el texto mas pequeño*/
@@ -143,19 +144,25 @@
   .textoexplica{
       font-size:200%;
   }
+  
 }
 /*hacemos el texto mas pequeño*/
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 711px) {
   .textoexplica{
-      font-size:190%;
+    font-size: 180%;
   }
+  
 }
 @media screen and (max-width: 549px) {
   .textoexplica{
-      font-size:160%;
+      font-size:150%;
   }
 }
-
+@media screen and (max-width: 434px) {
+  .textoexplica{
+    font-size: 120%;
+  }
+}
 /*mapa dentro del contenido*/
 .mapa{
   overflow: hidden;
@@ -311,13 +318,13 @@ margin:0
 display: flex;
 position: absolute;
 right: 4%;
-top: 58%;
+top: 55%;
 }
 #redes{
 position: relative;
 width: 20%;
 height: 20%;
-margin: 5%;
+margin: 1%;
 }
 
 
@@ -1136,12 +1143,7 @@ position: absolute;
 right: 4%;
 top: 58%;
 }
-#redes{
-position: relative;
-width: 20%;
-height: 20%;
-margin: 5%;
-}
+
 
 
 /*ESENCIAL PARA CLUBSWEB*/
@@ -1390,12 +1392,6 @@ top: 0%;
   position: absolute;
   right: 4%;
   top: 58%;
-  }
-  #redes{
-  position: relative;
-  width: 20%;
-  height: 20%;
-  margin: 5%;
   }
   
   /*MENU DE PAGINA proyectos*/

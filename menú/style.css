@@ -974,7 +974,7 @@ color: #fff;
 margin: 0;
 }
 
-.containerCB .card .contentBx .size, .containerCB .card .contentBx .color {
+.containerCB .card .contentBx .size {
 display: flex;
 position: relative;
 justify-content: center;
@@ -995,13 +995,9 @@ transition-delay: 0.5s;
 
 }
 
-.containerCB .card:hover .contentBx .color{
-opacity: 1;
-visibility: visible;
-transition-delay: 0.6s;
-}
 
-.containerCB .card .contentBx .size h3, .containerCB .card .contentBx .color h3{
+
+.containerCB .card .contentBx .size h3{
 color: #fff;
 font-weight: 300;
 font-size: 12px;

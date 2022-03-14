@@ -1206,9 +1206,9 @@ top: 0%;
     position: relative;
     margin-top: 30%;
   }
-  @media screen and (max-width:1110px) {
+  @media screen and (max-width:1141px) {
     .contenedor{
-      margin-top: 50%;
+      margin-top: 37%;
     }
   }
   
@@ -1399,7 +1399,7 @@ top: 0%;
   }
   
   /*MENU DE PAGINA proyectos*/
-  .puente{
+  .puenteCP{
     position: relative;
     width: 120%;
     

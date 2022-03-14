@@ -1420,6 +1420,15 @@ top: 0%;
     width: 120%;
     
 }
+.logomadridCP{
+  width: 100%;
+  display: flex;
+}
+.cajaCP{
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
   .cajatituloCP{
     width: 100%;
     background-color: rgb(0, 0, 0, 0.5);

@@ -1,0 +1,2210 @@
+@font-face{
+  font-family: "Awake the Beauty";
+  src:url(tipologia/Awake\ the\ Beauty.ttf);
+  font-family: "arlrdbd";
+  src:url(tipología/arlrdbd.ttf);
+  font-family: "Hellix-Black";
+  src:url(tipología/Hellix-Black.ttf)
+}
+.bodyindex{
+  background-color:  #24242c ;
+  position: relative;
+  height: 100vh;
+}
+/*titulo de la universidad europea*/
+.titulo{
+  color:  #129968 ;
+  display: flex;
+  font-family: Hellix-Black;
+  text-shadow: #000000 10px 10px 10px;
+  font-size: 500%;
+}
+@media  screen and (max-width: 949px) {
+  .titulo{
+      font-size:400%;
+  }
+}
+@media  screen and (max-width: 761px) {
+  .titulo{
+      font-size:300%;
+  }
+}
+@media screen and (max-width: 571px) {
+  .titulo{
+      font-size: 250%;
+  }
+}
+@media screen and (max-width: 482px) {
+.titulo{
+    font-size: 170%;
+}
+}
+.link{
+  text-decoration: none;
+}
+
+/*logo de la uem*/
+.logomadrid{
+  width: 100%;
+  display: flex;
+}
+/*borde para el logo de la uem*/
+.bordelogo{
+  position: absolute;
+  top: 55%;
+  left: 87%;
+  overflow: hidden;
+  width: 20%;
+  border-radius: 10px;
+}
+
+
+.caja{
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/*caja con todo el contenido del titulo*/
+.cajatitulo{
+  width: 100%;
+  height: 63.5%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 7%;
+  right: 0%;
+  overflow: hidden;
+}
+
+/*Caja que contiene el texto*/
+.capa{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  overflow: hidden;
+  display: flex;
+}
+
+
+
+
+/*imagen de puente:*/
+.puente{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/*este es el contenido de debajo de la foto*/
+.contenido{
+  position: absolute;
+  top: 70.5%;
+  width: 100%;
+  height: 69.5%;
+}
+
+/*caja texto esplicativo*/
+.cajaTextoExplicativo{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  max-width: 35%;
+  max-height: 851px;
+}
+/*texto explicativo*/
+.textoexplica{
+  font-size: 300%;
+  font-family: Hellix-Black;
+  color: rgb(194, 199, 155);
+}
+@media screen and (max-width: 1456px) {
+  .textoexplica{
+    font-size: 250%;
+  }
+}
+@media screen and (max-width: 1056px) {
+  .textoexplica{
+    font-size: 220%;
+  }
+}
+/*hacemos el texto mas pequeño*/
+@media  screen and (max-width: 883px) {
+  .textoexplica{
+      font-size:200%;
+  }
+  
+}
+/*hacemos el texto mas pequeño*/
+@media screen and (max-width: 711px) {
+  .textoexplica{
+    font-size: 180%;
+  }
+  
+}
+@media screen and (max-width: 549px) {
+  .textoexplica{
+      font-size:150%;
+  }
+}
+@media screen and (max-width: 434px) {
+  .textoexplica{
+    font-size: 120%;
+  }
+}
+/*mapa dentro del contenido*/
+.mapa{
+  overflow: hidden;
+  border-radius: 10%;
+  position: absolute;
+  top: 5%;right: 7%;
+  height: 90%;
+  width: 30%;
+}
+@media screen and (max-width: 979px) {
+  .mapa{
+      height: 70%;
+      top: 15%;
+  }
+}
+
+/*MENÚ:*/
+.topnav {
+  background-color:  #24242c;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.logoindex1{
+  position: absolute;
+  top: 6%;
+  right: 2%;
+  width: 60px;
+}
+.logoproyectos1{
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER*/
+.site-footer
+{
+background-color:#1f1f22;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footer hr
+{
+border-top-color:#bbb;
+opacity:0.5
+}
+.site-footer hr.small
+{
+margin:20px 0
+}
+.site-footer h6
+{
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footer a
+{
+color:#737373;
+}
+.site-footer a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+
+}
+.footer-links li
+{
+display:block
+}
+.footer-links a
+{
+color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center
+}
+}
+
+.logos{
+display: flex;
+position: absolute;
+right: 4%;
+top: 55%;
+}
+#redes{
+position: relative;
+width: 20%;
+height: 20%;
+margin: 1%;
+}
+
+
+footer {
+    position: absolute;
+    top: 140%;
+    background-color: #efefef;
+    margin-top: 0%;
+  }
+
+
+
+
+/*Esta es la parte de CSS de Información*/
+.BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+  color:  #129968 ;
+  display: flex;
+  font-family: Hellix-Black;
+  text-shadow: #000000 10px 10px 10px;
+  font-size: 500%;
+}
+.capaI{
+  width: 100%;
+  height: 96.9%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 8.2%;
+  right: 0%;
+  overflow: hidden;
+  display: flex;
+}
+
+.cajaI{
+  position: absolute;
+  left: 35%;
+}
+
+.cajaformu{
+          width:600px;
+          height: 500px;
+          background-color: #414d48;
+          position: absolute;
+          left: 30%;
+          top: 27%;
+          border-radius: 10px;
+}
+.tituloformu{
+  display: flexbox;
+  text-align: center;
+}
+.tituloformu>img{
+            height: 100px;
+            width: 100px;
+}
+.cajaformu input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 160px;
+  }
+  .nombre{
+    position: relative;
+    top: 13%;
+    left: 6%;
+  }
+  .apellido1{
+    position: relative;
+    top: 13%;
+    left: 10%;
+  }
+  .apellido2{
+    position: relative;
+    top: 13%;
+    left: 14%;
+  }
+  .cajaformu .mail{
+    position: relative;
+    left: 6%;
+    top: 25%;
+    width: 349px;
+  }
+  .cajaformu .Descripción{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 537px;
+    height: 100px;
+    position: absolute;
+    left: 6%;
+    top: 62%;
+  }
+  .cajaformu .IDes{
+    position: absolute;
+    width: 270px;
+    top: 48%;
+    left: 6%;
+  }
+  .Fechanac{
+    position: absolute;
+    left: 68.8%;
+    top: 35%;
+  }
+  .Enviar{
+    position: absolute;
+    left: 37%;
+    top: 85%;
+  }
+  .cajaformu .Estudios{
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    width: 243px;
+  }
+
+  @media screen and (max-width:1280px ){
+    .BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+      color:  #129968 ;
+      display: flex;
+      font-family: Hellix-Black;
+      text-shadow: #000000 10px 10px 10px;
+      font-size: 500%;
+    }
+    .capaI{
+      width: 100%;
+      height: 96.9%;
+      background-color: rgb(0, 0, 0, 0.5);
+      position: absolute;
+      top: 6.8%;
+      right: 0%;
+      overflow: hidden;
+      display: flex;
+    }
+    
+    .cajaI{
+      position: absolute;
+      left: 33%;
+    }
+    
+    .cajaformu{
+              width:600px;
+              height: 500px;
+              background-color: #414d48;
+              position: absolute;
+              left: 28%;
+              top: 27%;
+              border-radius: 10px;
+    }
+    .tituloformu{
+      display: flexbox;
+      text-align: center;
+    }
+    .tituloformu>img{
+                height: 100px;
+                width: 100px;
+    }
+    .cajaformu input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 16px;
+      width: 160px;
+      }
+      .nombre{
+        position: relative;
+        top: 13%;
+        left: 6%;
+      }
+      .apellido1{
+        position: relative;
+        top: 13%;
+        left: 10%;
+      }
+      .apellido2{
+        position: relative;
+        top: 13%;
+        left: 14%;
+      }
+      .cajaformu .mail{
+        position: relative;
+        left: 6%;
+        top: 25%;
+        width: 349px;
+      }
+      .cajaformu .Descripción{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 537px;
+        height: 100px;
+        position: absolute;
+        left: 6%;
+        top: 62%;
+      }
+      .cajaformu .IDes{
+        position: absolute;
+        width: 270px;
+        top: 48%;
+        left: 6%;
+      }
+      .Fechanac{
+        position: absolute;
+        left: 68.8%;
+        top: 35%;
+      }
+      .Enviar{
+        position: absolute;
+        left: 37%;
+        top: 85%;
+      }
+      .cajaformu .Estudios{
+        position: absolute;
+        top: 48%;
+        left: 55%;
+        width: 243px;
+      }
+    
+  }
+
+  @media screen and (max-width:1024px ){
+    .BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+      color:  #129968 ;
+      display: flex;
+      font-family: Hellix-Black;
+      text-shadow: #000000 10px 10px 10px;
+      font-size: 500%;
+    }
+    .capaI{
+      width: 100%;
+      height: 100%;
+      background-color: rgb(0, 0, 0, 0.5);
+      position: absolute;
+      top: 8.1%;
+      right: 0%;
+      overflow: hidden;
+      display: flex;
+    }
+    
+    .cajaI{
+      position: absolute;
+      left: 30%;
+      top:-5%
+    }
+    
+    .cajaformu{
+              width:600px;
+              height: 500px;
+              background-color: #414d48;
+              position: absolute;
+              left: 25%;
+              top: 23%;
+              border-radius: 10px;
+    }
+    .tituloformu{
+      display: flexbox;
+      text-align: center;
+    }
+    .tituloformu>img{
+                height: 100px;
+                width: 100px;
+    }
+    .cajaformu input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 16px;
+      width: 160px;
+      }
+      .nombre{
+        position: relative;
+        top: 13%;
+        left: 6%;
+      }
+      .apellido1{
+        position: relative;
+        top: 13%;
+        left: 10%;
+      }
+      .apellido2{
+        position: relative;
+        top: 13%;
+        left: 14%;
+      }
+      .cajaformu .mail{
+        position: relative;
+        left: 6%;
+        top: 25%;
+        width: 349px;
+      }
+      .cajaformu .Descripción{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 537px;
+        height: 100px;
+        position: absolute;
+        left: 6%;
+        top: 62%;
+      }
+      .cajaformu .IDes{
+        position: absolute;
+        width: 270px;
+        top: 48%;
+        left: 6%;
+      }
+      .Fechanac{
+        position: absolute;
+        left: 68.8%;
+        top: 35%;
+      }
+      .Enviar{
+        position: absolute;
+        left: 37%;
+        top: 85%;
+      }
+      .cajaformu .Estudios{
+        position: absolute;
+        top: 48%;
+        left: 55%;
+        width: 243px;
+      }
+    
+  }
+  @media screen and (max-width:780px ){
+    .BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+      color:  #129968 ;
+      display: flex;
+      font-family: Hellix-Black;
+      text-shadow: #000000 10px 10px 10px;
+      font-size: 300%;
+    }
+    .capaI{
+      width: 100%;
+      height: 1190px;
+      background-color: rgb(0, 0, 0, 0.5);
+      position: absolute;
+      top: 8.1%;
+      right: 0%;
+      overflow: hidden;
+      display: flex;
+    }
+    
+    .cajaI{
+      position: absolute;
+      left: 30%;
+      top:0%;
+    }
+    
+    .cajaformu{
+              width:400px;
+              height: 500px;
+              background-color: #414d48;
+              position: absolute;
+              left: 22%;
+              top: 20%;
+              border-radius: 10px;
+    }
+    .tituloformu{
+      display: flexbox;
+      text-align: center;
+    }
+    .tituloformu>img{
+                height: 90px;
+                width: 90px;
+    }
+    .cajaformu input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      width: 100px;
+      }
+      .nombre{
+        position: relative;
+        top: 13%;
+        left: 6%;
+      }
+      .apellido1{
+        position: relative;
+        top: 13%;
+        left: 10%;
+      }
+      .apellido2{
+        position: relative;
+        top: 13%;
+        left: 14%;
+      }
+      .cajaformu .mail{
+        position: relative;
+        left: 6%;
+        top: 25%;
+        width: 170px;
+      }
+      .cajaformu .Descripción{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 342px;
+        height: 100px;
+        position: absolute;
+        left: 6%;
+        top: 62%;
+      }
+      .cajaformu .IDes{
+        position: absolute;
+        width: 160px;
+        top: 46%;
+        left: 6%;
+      }
+      .cajaformu .Fechanac{
+        position: absolute;
+        left: 55%;
+        top: 32.5%;
+        width: 145px;
+      }
+      .Enviar{
+        position: absolute;
+        left: 37%;
+        top: 85%;
+      }
+      .cajaformu .Estudios{
+        position: absolute;
+        top: 46%;
+        left: 52%;
+        width: 158px;
+      }
+    
+  }
+  @media screen and (max-width:480px ){
+    .BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+      color:  #129968 ;
+      display: flex;
+      font-family: Hellix-Black;
+      text-shadow: #000000 10px 10px 10px;
+      font-size: 300%;
+    }
+    .capaI{
+      width: 100%;
+      height: 1190px;
+      background-color: rgb(0, 0, 0, 0.5);
+      position: absolute;
+      top: 8.1%;
+      right: 0%;
+      overflow: hidden;
+      display: flex;
+    }
+    
+    .cajaI{
+      position: absolute;
+      left: 19%;
+      top:0%;
+    }
+    
+    .cajaformu{
+              width:400px;
+              height: 500px;
+              background-color: #414d48;
+              position: absolute;
+              left: 7%;
+              top: 20%;
+              border-radius: 10px;
+    }
+    .tituloformu{
+      display: flexbox;
+      text-align: center;
+    }
+    .tituloformu>img{
+                height: 90px;
+                width: 90px;
+    }
+    .cajaformu input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      width: 100px;
+      }
+      .nombre{
+        position: relative;
+        top: 13%;
+        left: 6%;
+      }
+      .apellido1{
+        position: relative;
+        top: 13%;
+        left: 10%;
+      }
+      .apellido2{
+        position: relative;
+        top: 13%;
+        left: 14%;
+      }
+      .cajaformu .mail{
+        position: relative;
+        left: 6%;
+        top: 25%;
+        width: 170px;
+      }
+      .cajaformu .Descripción{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 342px;
+        height: 100px;
+        position: absolute;
+        left: 6%;
+        top: 62%;
+      }
+      .cajaformu .IDes{
+        position: absolute;
+        width: 160px;
+        top: 46%;
+        left: 6%;
+      }
+      .cajaformu .Fechanac{
+        position: absolute;
+        left: 55%;
+        top: 32.5%;
+        width: 145px;
+      }
+      .Enviar{
+        position: absolute;
+        left: 37%;
+        top: 85%;
+      }
+      .cajaformu .Estudios{
+        position: absolute;
+        top: 46%;
+        left: 52%;
+        width: 158px;
+      }
+    
+  }
+  @media screen and (max-width:375px ){
+    .BodyL>.capaI>.cajatituloL>.cajaI>.tituloI{
+      color:  #129968 ;
+      display: flex;
+      font-family: Hellix-Black;
+      text-shadow: #000000 10px 10px 10px;
+      font-size: 300%;
+    }
+    .capaI{
+      width: 100%;
+      height: 1190px;
+      background-color: rgb(0, 0, 0, 0.5);
+      position: absolute;
+      top: 8.1%;
+      right: 0%;
+      overflow: hidden;
+      display: flex;
+    }
+    
+    .cajaI{
+      position: absolute;
+      left: 10%;
+      top:0%;
+    }
+    
+    .cajaformu{
+              width:300px;
+              height: 400px;
+              background-color: #414d48;
+              position: absolute;
+              left: 10%;
+              top: 23%;
+              border-radius: 10px;
+    }
+    .tituloformu{
+      display: flexbox;
+      text-align: center;
+    }
+    .tituloformu>img{
+                height: 70px;
+                width: 70px;
+    }
+    .cajaformu input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 11px;
+      width: 75px;
+      }
+      .nombre{
+        position: relative;
+        top: 13%;
+        left: 6%;
+      }
+      .apellido1{
+        position: relative;
+        top: 13%;
+        left: 10%;
+      }
+      .apellido2{
+        position: relative;
+        top: 13%;
+        left: 14%;
+      }
+      .cajaformu .mail{
+        position: relative;
+        left: 6%;
+        top: 25%;
+        width: 130px;
+      }
+      .cajaformu .Descripción{
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: #f2f2f2;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 257px;
+        height: 80px;
+        position: absolute;
+        left: 6%;
+        top: 62%;
+      }
+      .cajaformu .IDes{
+        position: absolute;
+        width: 100px;
+        top: 48%;
+        left: 6%;
+      }
+      .cajaformu .Fechanac{
+        position: absolute;
+        left: 58%;
+        top: 34.5%;
+        width: 100px;
+      }
+      .Enviar{
+        position: absolute;
+        left: 37%;
+        top: 85%;
+      }
+      .cajaformu .Estudios{
+        position: absolute;
+        top: 48%;
+        left: 45%;
+        width: 140px;
+      }
+    
+  }
+  
+/*Esta es la parte de CSS del Login*/
+.link-login{
+  text-decoration: none;
+  color: #000000;
+}
+.BodyL{
+  background-image: url(img/puente.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*titulo de la universidad europea*/
+.tituloL{
+  color:  #129968 ;
+  display: flexbox;
+  font-family: Hellix-Black;
+  text-shadow: #000000 10px 10px 10px;
+  font-size: 300%;
+}
+@media  screen and (max-width: 1980px) {
+.cajaL{
+    font-size:100%;
+}
+.blanco{
+  position: absolute;
+  top: 30%;
+  left: 35%
+}
+}
+@media  screen and (max-width: 1024px) {
+  .cajaL{
+      font-size:90%;
+  }
+  .blanco{
+    position: absolute;
+    top: 30%;
+    left: 30%
+  }
+}
+@media  screen and (max-width: 768px) {
+  .cajaL{
+      font-size:70%;
+  }
+  .blanco{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cajaL{
+      font-size: 50%;
+  }
+  .blanco{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+  }
+}
+
+/*logo de la uem*/
+.logomadridL{
+  width: 100%;
+  display: flex;
+}
+/*borde para el logo de la uem*/
+.bordelogoL{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  overflow: hidden;
+  width: 20%;
+  border-radius: 10px;
+}
+
+
+.cajaL{
+  position: absolute;
+  left: 35%;
+  top: 5%;
+}
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/*caja con todo el contenido del titulo*/
+.cajatituloL{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*Capa oscura*/
+.capaL{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  overflow: hidden;
+  display: flex;
+}
+
+/*Formulario de registro*/
+.blanco{
+background: white;
+height: 535px;
+width: 500px;
+display: flex;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-page {
+width: 360px;
+height: 500px;
+position: absolute;
+top: 30%;
+left: 15%;
+}
+/*Este es nuestro logo*/
+.NLogo{
+width: 130px;
+height: 130px;
+position: absolute;
+top: 5%;
+left: 37%;
+}
+.form {
+position: relative;
+z-index: 1;
+background: #FFFFFF;
+max-width: 500px;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+}
+.form input {
+font-family: "Roboto", sans-serif;
+outline: 0;
+background: #f2f2f2;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+.form button {
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #129968;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+background: #129968;
+}
+.form .message {
+margin: 15px 0 0;
+color: #b3b3b3;
+font-size: 12px;
+}
+.form .message a {
+color: #129968;
+text-decoration: none;
+}
+.form .register-form {
+display: none;
+}
+.containerHU {
+position: relative;
+z-index: 1;
+max-width: 300px;
+margin: 0 auto;
+}
+.container:before, .container:after {
+content: "";
+display: block;
+clear: both;
+}
+.container .info {
+margin: 50px auto;
+text-align: center;
+}
+.container .info h1 {
+margin: 0 0 15px;
+padding: 0;
+font-size: 36px;
+font-weight: 300;
+color: #1a1a1a;
+}
+.container .info span {
+color: #4d4d4d;
+font-size: 12px;
+}
+.container .info span a {
+color: #000000;
+text-decoration: none;
+}
+.container .info span .fa {
+color: #EF3B3A;
+}
+
+.bodyCB{
+  background-color:  #24242c;
+  position: relative;
+  height: 100vh;
+}
+.tituloCB{
+  color: #04AA6D;
+  font-family: Hellix-Black;
+  text-shadow: #000000 5px 5px 5px;
+  font-size: 100px;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+.descripcionCB{
+color: #04AA6D;
+font-family: Hellix-Black;
+text-shadow: #000000 5px 5px 5px;
+font-size: 50px;
+text-align: center;
+position: relative;
+top: 40%;
+}
+.link{
+  text-decoration: none;
+}
+.textomenu{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*BANNER PRINCIPAL Y LOS DOS SIGUIENTES*/
+
+.cajaCBP{
+background-image: url(img/reunion.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 101%;
+height: 602px;
+position: relative;
+top: -1.3%;
+left: -1%;
+}
+.cajaCBP:before{
+content: "";
+width: 100%;
+height: 100%;
+background-color: #000000;
+position: absolute;
+opacity: 0.75;
+}
+
+.cajaCB2{
+background: #0f0f0f;
+ height: 50%;
+ background-size: cover;
+ width: 101%;
+ height: 115%;
+ position: relative;
+ top: -12.3%;
+ left: -1%;
+ 
+}
+
+.cajaCB2 .tituloCB{
+text-align: right;
+position: relative;
+left: -3%;
+top: 50%;
+width: 100%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+}
+
+.cajaCB2:hover .tituloCB{
+top: 10%;  
+opacity: 1;
+transition-delay: 0.5s;
+}
+
+.cajaCB2 .descripcionCB{
+text-align: right;
+position: relative;
+left: -3%;
+top: 50%;
+width: 100%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+}
+
+.cajaCB2:hover .descripcionCB{
+top: 10%;  
+opacity: 1;
+transition-delay: 0.5s;
+}
+
+.cajaCB2 .imgBx{
+position: relative;
+top: 10%;
+display: flex;
+
+
+}
+
+.cajaCB2 .imgBx img{
+position: relative;
+top: 35%;
+left: 5%;
+width: 25%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+margin: 2.5%;
+}
+
+.cajaCB2:hover .imgBx img{
+top: 30%;  
+opacity: 1;
+transition-delay: 0.7s;
+border-radius: 20px;
+
+}
+
+
+
+.cajaCB3{
+background: #1d1d1d;
+ height: 50%;
+ background-size: cover;
+ width: 101%;
+ height: 115%;
+ position: relative;
+ top: -12.3%;
+ left: -1%;
+ 
+}
+
+.cajaCB3 .tituloCB{
+text-align: center;
+position: relative;
+left: -3%;
+top: 50%;
+width: 100%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+}
+
+.cajaCB3:hover .tituloCB{
+top: 10%;  
+opacity: 1;
+transition-delay: 0.5s;
+}
+
+.cajaCB3 .descripcionCB{
+text-align: center;
+position: relative;
+top: 50%;
+width: 100%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+}
+
+.cajaCB3:hover .descripcionCB{
+top: 10%;  
+opacity: 1;
+transition-delay: 0.5s;
+}
+
+.cajaCB3 .imgBx{
+position: relative;
+top: 10%;
+display: flex;
+
+}
+
+.cajaCB3 .imgBx img{
+position: relative;
+top: 35%;
+left: 5%;
+width: 25%;
+height: 220px;
+transition: 0.5s;
+opacity: 0;
+margin: 2.5%;
+}
+
+.cajaCB3:hover .imgBx img{
+top: 30%;  
+opacity: 1;
+transition-delay: 0.7s;
+border-radius: 20px;
+
+}
+
+
+
+
+/*RESPONSIVE PAGINA CLUBS*/
+@media screen and (max-width: 850px){
+.cajaCB2 .tituloCB{
+height: 10%;
+ font-size: 52px;
+}
+.cajaCB2 .descripcionCB{
+  font-size: 32px;
+}
+.cajaCB3 .tituloCB{
+  height: 20%;
+  text-align: center;
+  font-size: 52px;
+}
+
+.cajaCB3 .descripcionCB{
+  margin-bottom: 0px;
+  font-size: 28px;
+  margin: 2px;
+}
+
+.cajaCB2 .imgBx img{
+  height: 50%;
+}
+
+.cajaCB3 .imgBx img{
+  height: 50%;
+}
+.cajaCB2 .imgBx{
+  height: 40%;  
+}
+.cajaCB3 .imgBx{
+  height: 40%;   
+ }
+  .containerCB .text-justify{
+    font-size: 12px;
+   }
+ .containerCB h6{
+  font-size: 12px;
+ }
+  .containerCB .footer-linksCB{
+    font-size: 12px;
+
+  }
+  .containerCB .col-{
+    font-size: 12px;
+
+  }
+  #clubsweb{
+    height: 1%;
+  }
+  #clubsweb .logosCB{
+    position: relative;
+    left: 50%;
+    top: -150px;
+    width: 20%;
+  }
+  #clubsweb .rowCB{
+    height: 2%;
+  }
+
+  .containerCB {
+    flex-direction: column;
+      
+  }
+
+
+ 
+}
+
+/*MENU DE PAGINA CLUB*/
+
+
+.topnav {
+  background-color:  #0c0c0e;
+  overflow: hidden;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  width: 100.5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.2s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/*CARTAS CLUB*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+font-family: 'Poppins', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+
+
+.containerCB{
+position: relative;
+display: flex;
+}
+
+.containerCB .card{
+position: relative;
+width: 350px;
+height: 450px;
+background: #232323;
+border-radius: 20px;
+overflow: hidden;
+margin: 1%;
+}
+
+.containerCB .card:before{
+content: '.';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #39994c;
+clip-path: circle(150px at 80% 20%);
+transition: 0.5s ease-in-out;
+}
+
+.containerCB .card:hover:before{
+clip-path: circle(300px at 80% -20%);
+}
+
+.containerCB .card:after{
+position: absolute;
+top: 30%;
+left: -20%;
+color: rgba(255,255,25,0.05)
+}
+
+.containerCB .card .imgBx{
+position: absolute;
+top: 30%;
+z-index: 10000;
+width: 100%;
+height: 220px;
+transition: 0.5s;
+
+}
+
+.containerCB .card:hover .imgBx{
+top: 0%;
+transform: translateY(0%);
+  
+}
+
+.containerCB .card .imgBx img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) rotate(-25deg);
+width: 64%;
+border-radius: 20px;
+
+}
+
+.containerCB .card .contentBx{
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+text-align: center;
+transition: 1s;
+z-index: 10;
+top: 50%;
+}
+
+.containerCB .card:hover .contentBx{
+height: 210px;
+
+}
+
+.containerCB .card .contentBx h2{
+position: relative;
+border-radius: 20px;
+
+font-weight: 600;
+letter-spacing: 1px;
+color: #fff;
+margin: 0;
+}
+
+.containerCB .card .contentBx .size, .containerCB .card .contentBx .color {
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+opacity: 0;
+visibility: hidden;
+padding-top: 0;
+padding-bottom: 0;
+top: 10%;
+
+}
+
+.containerCB .card:hover .contentBx .size{
+opacity: 1;
+visibility: visible;
+transition-delay: 0.5s;
+
+}
+
+.containerCB .card:hover .contentBx .color{
+opacity: 1;
+visibility: visible;
+transition-delay: 0.6s;
+}
+
+.containerCB .card .contentBx .size h3, .containerCB .card .contentBx .color h3{
+color: #fff;
+font-weight: 300;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-right: 10px;
+}
+
+.containerCB .card .contentBx a{
+display: inline-block;
+padding: 10px 20px;
+background: #fff;
+border-radius: 4px;
+margin-top: 7px;
+text-decoration: none;
+font-weight: 600;
+color: #111;
+opacity: 0;
+transform: translateY(50px);
+transition: 0.5s;
+margin-top: 0;
+position: relative;
+top: 16%;
+}
+
+.containerCB .card:hover .contentBx a{
+opacity: 1;
+transform: translateY(0px);
+transition-delay: 0.75s;
+
+}
+
+
+
+
+
+
+
+/*FOOTER PAGINA CLUB*/
+
+
+.site-footerCB
+{
+background-color:#1f1f22;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footerCB hr
+{
+border-top-color:#bbb;
+opacity:0.5
+}
+.site-footerCB hr.small
+{
+margin:20px 0
+}
+.site-footerCB h6
+{
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footerCB a
+{
+color:#737373;
+}
+.site-footerCB a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-linksCB
+{
+padding-left:0;
+list-style:none
+
+}
+.footer-linksCB li
+{
+display:block
+}
+.footer-linksCB a
+{
+color:#737373
+}
+.footer-linksCB a:active,.footer-linksCB a:focus,.footer-linksCB a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-linksCB.inline li
+{
+display:inline-block
+}
+.site-footerCB .social-icons
+{
+text-align:right
+}
+.site-footerCB .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footerCB [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footerCB
+{
+  padding-bottom:0
+}
+.site-footerCB .copyright-text,.site-footerCB .social-icons
+{
+  text-align:center
+}
+}
+
+.logosCB{
+display: flex;
+position: absolute;
+right: 4%;
+top: 58%;
+}
+
+
+
+/*ESENCIAL PARA CLUBSWEB*/
+#clubsweb {
+position: relative;
+height: 40%;
+top: 0%;
+
+  margin-top: 0%;
+}
+
+
+  /* aqui esta mi relleno de proyectos*/
+  /* este es el responsive de proyectos clubes cards */
+  @media screen and (max-width: 1141px){
+
+    .cardCP,
+    .content{
+        flex-direction: column;
+    }
+  
+    .cardCP img{
+        margin-bottom: 10px;
+    }
+  
+    .cardCP .content .channel-name,
+    .cardCP .content .channel-info,
+    .cardCP .content .channel-desc{
+        text-align: center;
+    }
+  
+    .btn-link{
+        margin: 10px 0;
+    }
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .contenedor{
+    width: 100%;
+    min-width: 124px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #24242C;
+    -webkit-box-shadow: 0px 0px 40px 0px rgb(12, 99, 68);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30%;
+  }
+  @media screen and (max-width:1141px) {
+    .contenedor{
+      margin-top: 37%;
+    }
+  }
+  
+  .contenedor > h1{
+    color: #129968;
+    margin: 0 0 15px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .contenedor > p{
+    color: #444;
+    margin: 0 0 20px;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+  
+  .cardsCP{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardCP{
+    width: 90%;
+    min-width: 219.4px;
+    margin: 30px auto;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 40px 0px rgba(12, 99, 68);
+    transition: all .5s ease;
+    border-radius: 20px;
+  }
+  
+  .cardCP:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(12, 99, 68);
+    box-shadow: 0px 0px 30px 0px rgba();
+  }
+  
+  .cardCP img{
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+  }
+  
+  .cardCP .content{
+    margin: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardCP .text{
+    padding: 0 30px 0 0;
+  }
+  
+  .cardCP .content .channel-name{
+    font-weight: 400;
+  }
+  
+  .cardCP .content .channel-info{
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  
+  .cardCP .content .channel-desc{
+    margin: 5px 0;
+    font-weight: 300;
+    letter-spacing: .5px;
+  }
+  
+  .cardCP .content .btn-link{
+    color: white;
+    padding: 6px 12px;
+    font-size: .9rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #de1212;
+  }
+  /* aqui esta el footer de proyectos */
+  .site-footerCP
+  {
+  background-color:#1f1f22;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  }
+  .site-footerCP hr
+  {
+  border-top-color:#bbb;
+  opacity:0.5
+  }
+  .site-footerCP hr.small
+  {
+  margin:20px 0
+  }
+  .site-footerCP h6
+  {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+  }
+  .site-footerCP a
+  {
+  color:#737373;
+  }
+  .site-footerCP a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-linksCP
+  {
+  padding-left:0;
+  list-style:none
+  
+  }
+  .footer-linksCP li
+  {
+  display:block
+  }
+  .footer-linksCP a
+  {
+  color:#737373
+  }
+  .footer-linksCP a:active,.footer-linksCP a:focus,.footer-linksCP a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-linksCP.inline li
+  {
+  display:inline-block
+  }
+  .site-footerCP .social-icons
+  {
+  text-align:right
+  }
+  .site-footerCP .social-icons a
+  {
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+  }
+  .copyright-text
+  {
+  margin:0
+  }
+  @media (max-width:991px)
+  {
+  .site-footerCP [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  }
+  @media (max-width:767px)
+  {
+  .site-footerCP
+  {
+    padding-bottom:0;
+  }
+  .site-footerCP .copyright-text,.site-footerCP .social-icons
+  {
+    text-align:center
+  }
+  }
+  
+  .logosCP{
+  display: flex;
+  position: absolute;
+  right: 4%;
+  top: 58%;
+  }
+  
+  /*MENU DE PAGINA proyectos*/
+  .puenteCP{
+    position: relative;
+    width: 120%;
+}
+/*titulo de la universidad europea*/
+.tituloCP{
+  color:  #129968 ;
+  display: flex;
+  font-family: Hellix-Black;
+  text-shadow: #000000 10px 10px 10px;
+  font-size: 500%;
+}
+@media  screen and (max-width: 949px) {
+  .tituloCP{
+      font-size:400%;
+  }
+}
+@media  screen and (max-width: 761px) {
+  .tituloCP{
+      font-size:300%;
+  }
+}
+@media screen and (max-width: 571px) {
+  .tituloCP{
+      font-size: 250%;
+  }
+}
+@media screen and (max-width: 482px) {
+.tituloCP{
+    font-size: 170%;
+}
+}
+@media screen and (max-width: 667px) {
+  .tituloCP{
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 1141px) {
+  .logomadridCP{
+    margin-top: -10px;
+  }
+}
+.logomadridCP{
+  width: 100%;
+  display: flex;
+}
+.cajaCP{
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+  .cajatituloCP{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    overflow: hidden;
+}
+  .bodyCP{
+    background-color:  #24242c ;
+    position: relative;
+}
+  .topnavPC {
+    background-color:  #0c0c0e;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .topnavPC a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+  }
+  
+  .topnavPC a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnavPC a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnavPC .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width:850px){
+    .clubsproyecto{
+      height: 1%;
+    }
+    .clubsproyecto .logosCP{
+      position: relative;
+      left: 10%; 
+      top: 0px;
+      width: 20%;
+    }
+    .clubsproyecto .rowCP{
+      height: 2%;
+    }
+  }

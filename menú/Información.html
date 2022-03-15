@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logomadrid.jpg">
+    <title>Información</title>
+</head>
+<header>
+    <div class="topnav" id="myTopnav">
+        <a href="https://universidadeuropea.com" class="active">Universidad</a>
+        <a href="#news">Acceso</a>
+        <a href="#contact">Informacion</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</header>
+<body>
+    <body class="BodyL">
+        <!--Caja donde se encontrara el Login-->
+        <div class="capaI">
+            <div class="cajatituloL">
+                <!--cajas con el contenido principal del titulo-->
+                    <div class="cajaI">
+                        <!--titulo principal-->
+                        <h2 class="titulo">Contáctanos</h2>
+                        <!--logo de la europea-->
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <div class="cajaformu">
+        <div class="tituloformu">Dudas</div>
+        <form class="login-form" action="mailto:hugoacademico@gmail.com" method="post">
+            <input class="nombre" type="text" placeholder="Nombre"/>
+            <input class="apellido1" type="text" placeholder="Primer apellido"/>
+            <input class="apellido2" type="text" placeholder="Segundo apellido"/>
+            <input class="mail" type="text" placeholder="email*" required/>
+            <textarea class="Descripción" placeholder="Escriba su duda..." rows="4" cols="60" required></textarea>
+            <input class="IDes" type="number" placeholder="ID Estudiante*" required/>
+            <input class="Fechanac" type="date" placeholder="Fecha de nacimiento">
+            <input class="Estudios" list="Estudios"  placeholder="Estudios">            
+            <datalist id="Estudios">
+                <option value="Sin estudios"></option>
+                <option value="ESO"></option>
+                <option value="Bachillerato"></option>
+                <option value="Grado medio"></option>
+                <option value="Grado superior"></option>
+                <option value="Prueba de acceso"></option>
+                <option value="Grado master"></option>
+                <option value="Doctorado"></option>
+            </datalist>
+            <input class="Enviar" type="submit">
+        </form>
+    </div>
+    <div class="contacto">
+        <div class="tituloformu">Contacto</div>
+    </div>
+</body>
+</html>
